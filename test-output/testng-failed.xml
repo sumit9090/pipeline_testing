@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test thread-count="1" name="testing1(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.maventesting.AppTest">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="testing2"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.selenium.maventesting.AppTest -->
+    </classes>
+  </test> <!-- testing1(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="170" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+    <groups>
+    </groups>
+    <test name="testing1" duration-ms="54" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+      <class name="com.selenium.maventesting.AppTest">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="beforetest" is-config="true" duration-ms="1" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="testing" duration-ms="8" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="SKIP" signature="testing2()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="testing2" duration-ms="3" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping
+at com.selenium.maventesting.AppTest.testing2(AppTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="aftertest" is-config="true" duration-ms="1" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.selenium.maventesting.AppTest -->
+    </test> <!-- testing1 -->
+    <test name="testing2" duration-ms="5" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+      <class name="com.selenium.maventesting.AppTest1">
+        <test-method status="PASS" signature="testing1()[pri:0, instance:com.selenium.maventesting.AppTest1@464bee09]" name="testing1" duration-ms="2" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing1 -->
+      </class> <!-- com.selenium.maventesting.AppTest1 -->
+    </test> <!-- testing2 -->
+    <test name="testing3" duration-ms="14" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+      <class name="com.selenium.maventesting.AppTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="beforesuite" is-config="true" duration-ms="23" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.selenium.maventesting.AppTest@68c4039c]" name="aftersuite" is-config="true" duration-ms="1" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.selenium.maventesting.AppTest -->
+      <class name="com.selenium.maventesting.RegTest">
+        <test-method status="PASS" signature="doRegister()[pri:0, instance:com.selenium.maventesting.RegTest@6500df86]" name="doRegister" duration-ms="5" started-at="2020-07-09T07:24:00Z" finished-at="2020-07-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+      </class> <!-- com.selenium.maventesting.RegTest -->
+    </test> <!-- testing3 -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>
