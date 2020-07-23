@@ -5,6 +5,8 @@ git 'https://github.com/sumit9090/pipeline_testing'
 }
 stage('Compile-Package')
 {
-sh 'mvn package'
+  def myvar=  tool name: 'M2_HOME', type: 'maven'
+
+  sh "${myvar}/bin/mvn package"
 }
 }
